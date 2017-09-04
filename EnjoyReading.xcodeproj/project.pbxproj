@@ -13,6 +13,11 @@
 		E03669E61F5CD38400D64F5C /* EnjoyReading.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E03669E41F5CD38400D64F5C /* EnjoyReading.xcdatamodeld */; };
 		E03669E81F5CD38400D64F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E03669E71F5CD38400D64F5C /* Assets.xcassets */; };
 		E03669EB1F5CD38400D64F5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03669E91F5CD38400D64F5C /* LaunchScreen.storyboard */; };
+		E03669F31F5CD5D400D64F5C /* AddBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03669F21F5CD5D400D64F5C /* AddBookTableViewController.swift */; };
+		E05CFF6D1F5CD6F700A4AFF6 /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05CFF6C1F5CD6F700A4AFF6 /* BooksTableViewController.swift */; };
+		E05CFF6F1F5CD73C00A4AFF6 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05CFF6E1F5CD73C00A4AFF6 /* HistoryTableViewController.swift */; };
+		E05CFF711F5CD7BA00A4AFF6 /* FictionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05CFF701F5CD7BA00A4AFF6 /* FictionTableViewController.swift */; };
+		E05CFF731F5CD82500A4AFF6 /* DesignTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05CFF721F5CD82500A4AFF6 /* DesignTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		E03669E71F5CD38400D64F5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E03669EA1F5CD38400D64F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E03669EC1F5CD38400D64F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03669F21F5CD5D400D64F5C /* AddBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookTableViewController.swift; sourceTree = "<group>"; };
+		E05CFF6C1F5CD6F700A4AFF6 /* BooksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
+		E05CFF6E1F5CD73C00A4AFF6 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		E05CFF701F5CD7BA00A4AFF6 /* FictionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FictionTableViewController.swift; sourceTree = "<group>"; };
+		E05CFF721F5CD82500A4AFF6 /* DesignTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				E03669DD1F5CD38400D64F5C /* AppDelegate.swift */,
 				E03669DF1F5CD38400D64F5C /* ViewController.swift */,
 				E03669E11F5CD38400D64F5C /* Main.storyboard */,
+				E03669F21F5CD5D400D64F5C /* AddBookTableViewController.swift */,
+				E05CFF6E1F5CD73C00A4AFF6 /* HistoryTableViewController.swift */,
+				E05CFF701F5CD7BA00A4AFF6 /* FictionTableViewController.swift */,
+				E05CFF721F5CD82500A4AFF6 /* DesignTableViewController.swift */,
+				E05CFF6C1F5CD6F700A4AFF6 /* BooksTableViewController.swift */,
 				E03669E71F5CD38400D64F5C /* Assets.xcassets */,
 				E03669E91F5CD38400D64F5C /* LaunchScreen.storyboard */,
 				E03669EC1F5CD38400D64F5C /* Info.plist */,
@@ -139,7 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03669F31F5CD5D400D64F5C /* AddBookTableViewController.swift in Sources */,
+				E05CFF6D1F5CD6F700A4AFF6 /* BooksTableViewController.swift in Sources */,
+				E05CFF6F1F5CD73C00A4AFF6 /* HistoryTableViewController.swift in Sources */,
+				E05CFF731F5CD82500A4AFF6 /* DesignTableViewController.swift in Sources */,
 				E03669E01F5CD38400D64F5C /* ViewController.swift in Sources */,
+				E05CFF711F5CD7BA00A4AFF6 /* FictionTableViewController.swift in Sources */,
 				E03669E61F5CD38400D64F5C /* EnjoyReading.xcdatamodeld in Sources */,
 				E03669DE1F5CD38400D64F5C /* AppDelegate.swift in Sources */,
 			);
